@@ -1,4 +1,21 @@
+<div align="center">
+<img align="center" width="30%" alt="image" src="https://github.com/LLMQuant/AlphaAgent/blob/main/alphaAgent.png">
+</div>
 
+# AlphaAgent: An Advanced AI Platform for Financial Market Analysis
+[![Downloads](https://static.pepy.tech/badge/alphaagent)]([https://pepy.tech/project/alphaagent](https://pepy.tech/project/alphaagent))
+[![Downloads](https://static.pepy.tech/badge/alphaagent/week)](https://pepy.tech/project/alphaagent)
+[![Python 3.8](https://img.shields.io/badge/python-3.6-blue.svg)](https://www.python.org/downloads/release/python-360/)
+[![PyPI](https://img.shields.io/pypi/v/alphaagent.svg)](https://pypi.org/project/alphaagent/)
+![License](https://img.shields.io/github/license/LLMQuant/alphaagent.svg?color=brightgreen)
+![](https://img.shields.io/github/issues-raw/LLMQuant/alphaagent?label=Issues)
+![](https://img.shields.io/github/issues-closed-raw/LLMQuant/alphaagent?label=Closed+Issues)
+![](https://img.shields.io/github/issues-pr-raw/LLMQuant/alphaagent?label=Open+PRs)
+![](https://img.shields.io/github/issues-pr-closed-raw/LLMQuant/alphaagent?label=Closed+PRs)
+
+<div align="center">
+<img align="center" src="figs/logo_white_background.jpg" width="40%"/>
+</div>
 # AlphaAgent
 
 **AlphaAgent** is a sophisticated platform designed for advanced financial applications. It consists of four main components: Alpha Mining Agent, Implementation Agent, Combination Agent, and Backtesting. This readme provides a comprehensive guide to understanding, installing, and using AlphaAgent.
