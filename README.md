@@ -1,5 +1,5 @@
 <div align="center">
-<img align="center" width="30%" alt="image" src="https://github.com/LLMQuant/AlphaAgent/blob/main/alphaAgent.png">
+<img align="center" width="30%" alt="image" src="https://github.com/LLMQuant/AlphaAgent/blob/main/AlphaAgent.png">
 </div>
 
 # AlphaAgent: An Advanced AI Platform for Financial Market Analysis
