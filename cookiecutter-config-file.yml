@@ -1,0 +1,21 @@
+# This file contains values from Cookiecutter
+# Made with https://gitlab.com/manoelpqueiroz/galactipy
+
+default_context:
+  project_name: "AlphaAgent"
+  repo_name: "alphaagent"
+  package_name: "alphaagent"
+  project_description: "Awesome `alphaagent` is a Python cli/package created with https://gitlab.com/manoelpqueiroz/galactipy"
+  version: "0.1.0"
+  author: "LLMQuant"
+  scm_platform: "GitHub"
+  scm_username: "llmquant"
+  email: "info@llmquant.com"
+  licence: "MIT"
+  minimal_python_version: 3.8
+  use_ruff: True
+  line_length: 88
+  docstring_style: "numpy"
+  create_cli: True
+  create_docker: False
+  create_docs: True
