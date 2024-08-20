@@ -16,25 +16,6 @@
 <div align="center">
 <img align="center" src="figs/logo_white_background.jpg" width="40%"/>
 </div>
-# AlphaAgent
-
-**AlphaAgent** is a sophisticated platform designed for advanced financial applications. It consists of four main components: Alpha Mining Agent, Implementation Agent, Combination Agent, and Backtesting. This readme provides a comprehensive guide to understanding, installing, and using AlphaAgent.
-
-## Table of Contents
-- [AlphaAgent Overview](#alphaagent-overview)
-- [Components](#components)
-  - [Alpha Mining Agent](#alpha-mining-agent)
-  - [Implementation Agent](#implementation-agent)
-  - [Combination Agent](#combination-agent)
-  - [Backtesting](#backtesting)
-- [Installation](#installation)
-- [Usage](#usage)
-  - [Alpha Mining Agent Usage](#alpha-mining-agent-usage)
-  - [Implementation Agent Usage](#implementation-agent-usage)
-  - [Combination Agent Usage](#combination-agent-usage)
-  - [Backtesting Usage](#backtesting-usage)
-- [File Structure](#file-structure)
-- [License](#license)
 
 ## AlphaAgent Overview
 
@@ -58,104 +39,46 @@ The Combination Agent merges the outputs of multiple agents to create a cohesive
 
 Backtesting is a critical component that tests the strategies in a simulated environment using historical data. It helps in assessing the performance and robustness of the trading strategies before they are deployed in live markets.
 
-## Installation
 
-**1. (Recommended) Create a new virtual environment**
-```shell
-conda create --name alphaagent python=3.10
-conda activate alphaagent
-```
+## Very first steps
 
-**2. Download the AlphaAgent repository**
-```shell
-git clone https://github.com/YourUsername/AlphaAgent.git
-cd AlphaAgent
-```
+### Initialize your code
 
-**3. Install AlphaAgent & dependencies from source or PyPI**
+1. Initialize `git` inside your repo:
+
 ```bash
-pip install -U alphaagent
+cd alphaagent && git init
 ```
-or
+
+2. If you don't have `Poetry` installed run:
+
 ```bash
-pip install -e .
+make poetry-download
 ```
 
-**4. Configure API keys**
-```shell
-1. Rename `OAI_CONFIG_LIST_sample` to `OAI_CONFIG_LIST` and add your OpenAI API key.
-2. Rename `config_api_keys_sample` to `config_api_keys` and add your financial data API keys.
+> This installs Poetry as a [standalone application][fs1]. If you prefer, install it through your distribution's package manager.
+
+3. Initialize Poetry and install `pre-commit` hooks:
+
+```bash
+make install
+make pre-commit-install
 ```
 
-## Usage
+4. Run the codestyle:
 
-### Alpha Mining Agent Usage
-To run the Alpha Mining Agent:
-```python
-from alphaagent.agents.alpha_mining_agent import AlphaMiningAgent
-
-agent = AlphaMiningAgent(config)
-agent.run()
+```bash
+make codestyle
 ```
 
-### Implementation Agent Usage
-To execute trades with the Implementation Agent:
-```python
-from alphaagent.agents.implementation_agent import ImplementationAgent
+5. Upload initial code to GitHub:
 
-agent = ImplementationAgent(config)
-agent.execute()
-```
-
-### Combination Agent Usage
-To combine signals using the Combination Agent:
-```python
-from alphaagent.agents.combination_agent import CombinationAgent
-
-agent = CombinationAgent(config)
-agent.combine()
-```
-
-### Backtesting Usage
-To backtest a strategy:
-```python
-from alphaagent.backtesting import Backtesting
-
-backtester = Backtesting(config)
-backtester.run()
-```
-
-## File Structure
-
-The main folder **alphaagent** has three subfolders **agents, data, functional**. 
-
-```
-AlphaAgent
-├── alphaagent (main folder)
-│   ├── agents
-│   	├── alpha_mining_agent.py
-│   	├── implementation_agent.py
-│   	└── combination_agent.py
-│   ├── data
-│   	├── data_loader.py
-│   	└── data_preprocessor.py
-│   ├── functional
-│   	├── strategy.py
-│   	├── analyzer.py
-│   	└── visualizer.py
-│   ├── backtesting.py
-│   └── utils.py
-│
-├── configs
-├── experiments
-├── tutorials (hands-on tutorial)
-│   ├── alpha_mining_tutorial.ipynb
-│   ├── implementation_tutorial.ipynb 
-│   └── combination_tutorial.ipynb
-├── setup.py
-├── config_api_keys_sample
-├── requirements.txt
-└── README.md
+```bash
+git add .
+git commit -m ":tada: Initial commit"
+git branch -M main
+git remote add origin https://github.com/llmquant/alphaagent.git
+git push -u origin main
 ```
 
 ## License
