@@ -71,6 +71,7 @@ pytest-sugar = "^0.9.7"
 pytest-click = "^1.1.0"
 pytest-pikachu = "^1.0.0"
 coverage = "^7.3.0"
+ipykernel = "^6.29.5"
 
 
 [tool.ruff]
@@ -123,7 +124,7 @@ select = [  # UPDATEME with additional rules from https://docs.astral.sh/ruff/ru
   "CPY",
   "RUF"
 ]
-ignore = ["D200"]
+ignore = ["D200", "D104", "E501", "D101", "D100", "D102", "ANN101", "T201"]
 task-tags = ["TODO", "FIXME", "XXX", "UPDATEME"]  # UPDATEME by modifying or removing this setting after addressing all UPDATEMEs
 
 [tool.ruff.lint.per-file-ignores]
