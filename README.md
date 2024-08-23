@@ -1,11 +1,5 @@
-<div align="center">
-<img align="center" width="30%" alt="image" src="https://github.com/LLMQuant/AlphaAgent/blob/main/AlphaAgent.png">
-</div>
-
 # AlphaAgent: An Advanced AI Platform for Financial Market Analysis
-[![Downloads](https://static.pepy.tech/badge/alphaagent)]([https://pepy.tech/project/alphaagent](https://pepy.tech/project/alphaagent))
-[![Downloads](https://static.pepy.tech/badge/alphaagent/week)](https://pepy.tech/project/alphaagent)
-[![Python 3.8](https://img.shields.io/badge/python-3.6-blue.svg)](https://www.python.org/downloads/release/python-360/)
+[![Python 3.8](https://img.shields.io/badge/python-3.8-blue.svg)](https://www.python.org/downloads/release/python-360/)
 [![PyPI](https://img.shields.io/pypi/v/alphaagent.svg)](https://pypi.org/project/alphaagent/)
 ![License](https://img.shields.io/github/license/LLMQuant/alphaagent.svg?color=brightgreen)
 ![](https://img.shields.io/github/issues-raw/LLMQuant/alphaagent?label=Issues)
@@ -14,7 +8,7 @@
 ![](https://img.shields.io/github/issues-pr-closed-raw/LLMQuant/alphaagent?label=Closed+PRs)
 
 <div align="center">
-<img align="center" src="figs/logo_white_background.jpg" width="40%"/>
+<img align="center" width="40%" alt="image" src="https://github.com/LLMQuant/AlphaAgent/blob/main/AlphaAgent.png">
 </div>
 
 ## AlphaAgent Overview
