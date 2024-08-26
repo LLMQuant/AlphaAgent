@@ -48,7 +48,7 @@ classifiers = [  # UPDATEME with additional classifiers; remove last classifier 
 [tool.poetry.dependencies]
 python = "^3.8"
 
-typer = {extras = ["all"], version = "^0.7.0"}
+typer = {extras = ["all"], version = "^0.12.5"}
 rich = "^12.6.0"
 
 
