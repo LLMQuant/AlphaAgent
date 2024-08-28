@@ -1,4 +1,4 @@
-# AlphaAgent: An Advanced AI Platform for Financial Market Analysis
+# Alpha Agent: a multi-agent based framework for alpha mining and validation
 [![Python 3.8](https://img.shields.io/badge/python-3.8-blue.svg)](https://www.python.org/downloads/release/python-360/)
 [![PyPI](https://img.shields.io/pypi/v/alphaagent.svg)](https://pypi.org/project/alphaagent/)
 ![License](https://img.shields.io/github/license/LLMQuant/alphaagent.svg?color=brightgreen)
